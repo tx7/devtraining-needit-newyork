@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="DELETE">
+        <collection>incident</collection>
+        <email_layout/>
+        <message/>
+        <message_html><![CDATA[<p>Click here to close the NeedIt Task ${number}</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;<em>${mailto:&lt;emailtemplatename&gt;}</em></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>mailto.closeneeditask</name>
+        <sms_alternate/>
+        <subject>Re:${number} - please close NeedIt Task</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-25 14:18:27</sys_created_on>
+        <sys_id>2ab95cdcdb300010b20f5c7a489619e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>mailto.closeneeditask</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sysevent_email_template_2ab95cdcdb300010b20f5c7a489619e3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-25 14:18:27</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>98db6858db5973800ae3ac44d4961905</instance_id>
+        <instance_name>dev84971</instance_name>
+        <name>sysevent_email_template_2ab95cdcdb300010b20f5c7a489619e3</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sysevent_email_template"&gt;&lt;sysevent_email_template action="INSERT_OR_UPDATE"&gt;&lt;collection&gt;incident&lt;/collection&gt;&lt;email_layout/&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p&gt;Click here to close the NeedIt Task ${number}&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;em&gt;${mailto:&amp;lt;emailtemplatename&amp;gt;}&lt;/em&gt;&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;mailto.closeneeditask&lt;/name&gt;&lt;sms_alternate/&gt;&lt;subject&gt;Re:${number} - please close NeedIt Task&lt;/subject&gt;&lt;sys_class_name&gt;sysevent_email_template&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-25 14:18:27&lt;/sys_created_on&gt;&lt;sys_id&gt;2ab95cdcdb300010b20f5c7a489619e3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;mailto.closeneeditask&lt;/sys_name&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_template_2ab95cdcdb300010b20f5c7a489619e3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-25 14:18:27&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;/sysevent_email_template&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>303487123</payload_hash>
+        <record_name>mailto.closeneeditask</record_name>
+        <reverted_from/>
+        <source>3177f884dbe00010b20f5c7a489619e0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-25 14:18:28</sys_created_on>
+        <sys_id>d83a9c98db300010b20f5c7a489619cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e03486bd30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-25 14:18:28</sys_updated_on>
+        <type>Email Template</type>
+        <update_guid>d03a9c986530001060f88e7beb6285cd</update_guid>
+        <update_guid_history>d03a9c986530001060f88e7beb6285cd:303487123</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-25 14:19:15</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_email_template">sysevent_email_template</sys_db_object>
+        <sys_id>37815bd32c4f454c9e56ab5cbb9ea2d9</sys_id>
+        <sys_metadata>2ab95cdcdb300010b20f5c7a489619e3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>mailto.closeneeditask</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="Incident">5f27b404dbe00010b20f5c7a48961903</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sysevent_email_template_2ab95cdcdb300010b20f5c7a489619e3</sys_update_name>
+        <sys_update_version display_value="sysevent_email_template_2ab95cdcdb300010b20f5c7a489619e3">d83a9c98db300010b20f5c7a489619cd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-25 14:19:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
